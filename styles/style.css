@@ -1,0 +1,304 @@
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+/* -------------------- LAYOUT -------------------- */
+
+body {
+  font-size: ;
+  font-family: ;
+  min-width: 360px;
+  width: 100%;
+  margin-left: 0px;
+  margin-top: ; 
+}
+
+body{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 0px;
+}
+
+#logo{
+  position: absolute;
+  z-index: 2;
+}
+
+/*header{
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  height: 100px;
+  margin-top: -10px;
+}*/
+
+.menuItems{
+  width: 270px;
+  height: 46px;
+  background-color: #FFF7AA;
+  margin-left: 46px;
+  position: absolute;
+  z-index: 3;
+}
+
+.menuItems p{
+  font-size: 30px;
+  font-family: 'SourceSansPro', Arial, sans-serif;
+  font-style: normal;
+  text-align: center;
+  padding: 3px;
+  position: absolute;
+  z-index: 3;
+}
+
+.menutoggle p{
+  z-index: 3;
+  color: black;
+  position: absolute;
+  font-family: 'Exo';
+  margin-top: -15px;
+}
+
+.menutoggle{
+  margin-top: 10px;
+  margin-left: 80%;
+  z-index: 3;
+}
+
+#nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
+  cursor: pointer;
+  border-radius: 1px;
+  height: 5px;
+  width: 35px;
+  background: black;
+  position: absolute;
+  display: block;
+  content: '';
+
+}
+#nav-toggle span:before {
+  top: -10px;
+}
+#nav-toggle span:after {
+  bottom: -10px;
+}
+
+#nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
+  transition: all 500ms ease-in-out;
+}
+#nav-toggle.active span {
+  background-color: transparent;
+}
+#nav-toggle.active span:before, #nav-toggle.active span:after {
+  top: 0;
+}
+#nav-toggle.active span:before {
+  transform: rotate(45deg);
+}
+#nav-toggle.active span:after {
+  transform: rotate(-45deg);
+}
+
+#active{
+  text-decoration: underline;
+}
+
+.active {
+  margin-top: 25px;
+  max-height: 0px;
+  transition: max-height 0.2s, background-color 1s 1s ease-in-out;
+}
+
+.inactive ul{
+  display: none;
+}
+
+.inactive {
+  max-height: 0px;
+  transition: max-height 0.2s, background-color 1s 1s ease-in-out;
+}
+
+nav{
+  width: 100%;
+}
+
+nav ul {
+  display: flex;
+  flex-flow: column wrap; /*Navigatie schaalt nu mee*/
+  background-color: white;
+  margin-top: 50px;
+  padding-top: 150px;
+  height: 400px;
+  opacity: 0.9;
+}
+
+nav ul li {
+  flex-flow: row;
+  display: flex;
+  padding: 1em;
+  list-style: none;
+  justify-content: center;
+  border-radius: 0em;
+  z-index: 3;
+  font-family: 'Source Sans Pro';
+  margin-left: -30px;
+}
+
+nav > ul > li > a {
+  color: black;
+  text-decoration: none;
+  width: 270px;
+  text-align: center;
+  font-size: 18px;
+}
+
+nav ul .focus{
+  box-shadow: -4px 6px 10px grey;
+  border: grey thin solid;
+}
+
+.grid-container.footer{
+  background-color: black;
+  color: white;
+  font-family: 'arial';
+  margin-top: 36px;
+  width: 100%;
+  max-width: 1920px;
+}
+
+
+/* -------------------- LAYOUT -------------------- */
+
+
+
+/* -------------------- MEDIA SIZE -------------------- */
+
+/*Breakpoint naar tablet*/
+@media only screen and (min-width: 768px){
+
+  body{
+    min-width: 768px;
+    width: 100%;
+    margin: 0;
+  }
+
+  body{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 0px;
+  }
+
+  .menutoggle{
+    margin-top: 10px;
+    margin-left: 90%;
+  }
+
+  nav ul{
+    height: 1024px;
+  }
+
+  nav ul li {
+    margin-top: 40px;
+    margin-left: 100px;
+    width: 500px;
+  }
+
+}
+
+/*Breakpoint naar laptop*/
+@media only screen and (min-width: 1366px){
+
+  body{
+    min-width: 1366px;
+    width: 100%;
+  }
+
+  /*header{
+      background-color: white;
+      z-index: 10;
+      height: 100px;
+      margin-top: -10px;
+    }*/
+
+
+    #logo{
+      margin-top: 10px;
+      margin-left: 5%;
+    }
+
+      .menutoggle {
+        display: none;
+      }
+
+      .menu{
+        margin-left: 400px;
+        margin-top: 0px;
+      }
+
+      nav{
+        margin-left: 20%;
+        margin-top: -90px;
+      }
+
+      nav ul {
+        background-color: inherit;
+        margin-top: 0px;
+        padding-top: 80px;
+        opacity: inherit;
+      }
+
+      nav ul{
+        flex-flow: row;
+        height: 100px;
+      }
+
+      nav ul li {
+        padding: 0.5em;
+        width: 140px;
+        margin-left: 0px;
+        background-color: inherit;
+      }
+
+      nav ul li a{
+          font-size: 20px;
+          color: black;
+          font-family: 'Source Sans Pro';
+      }
+
+      nav ul li:hover {
+        border: none;
+        background-color: inherit;
+      }
+
+      nav ul li a:hover{
+        color: grey;
+      }
+
+      .inactive ul{
+        display: flex;
+      }
+
+      li{
+        flex: column;
+      }
+
+      .grid-container.footer{
+        margin-top: 300px;
+      }
+
+}
+
+/*Breakpoint naar desktop*/
+@media only screen and (min-width: 1920px) and (max-width: 1920px){
+
+  body{
+    max-width: 1920px;
+    width: 100%;
+  }
+
+  nav{
+    margin-left: 50%;
+  }
+
+}
+
+/* -------------------- MEDIA SIZE -------------------- */
