@@ -62,7 +62,7 @@ header{
 .menutoggle{
   margin-top: 50px;
   margin-left: 80%;
-  z-index: 3;
+  z-index: 4;
 }
 
 #nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
@@ -103,8 +103,8 @@ header{
   text-decoration: underline;
 }
 
-.active {
-  margin-top: 25px;
+.active{
+  margin-top: -40px;
   max-height: 0px;
   transition: max-height 0.2s, background-color 1s 1s ease-in-out;
 }
@@ -126,9 +126,9 @@ nav ul {
   display: flex;
   flex-flow: column wrap; /*Navigatie schaalt nu mee*/
   background-color: white;
-  margin-top: 50px;
+  margin-top: 120px;
   padding-top: 150px;
-  height: 400px;
+  height: 420px;
   opacity: 0.9;
 }
 
