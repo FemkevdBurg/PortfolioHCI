@@ -76,8 +76,28 @@ h1{
 /*Breakpoint naar tablet*/
 @media only screen and (min-width: 768px){
 
+  .pictureHome{
+    background-image: url("../images/background_tablet.png");
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    z-index: -1;
+  }
 
+  .titel{
+    font-size: 5em;
+    margin-top: 200px;
+  }
 
+  .aboutFemke img{
+    width: 50%;
+    margin-top: 200px;
+    margin-left: 25%;
+  }
+
+}
 /*Breakpoint naar laptop*/
 @media only screen and (min-width: 1366px){
 
@@ -97,7 +117,6 @@ h1{
       }
 
       .triangle {
-      	width: 100%;
       	height: 100px;
       	border-left: 1450px solid #6DFEED;
       	border-bottom: 600px solid transparent;
