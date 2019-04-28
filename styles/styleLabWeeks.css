@@ -4,49 +4,85 @@
 /* -------------------- LAYOUT -------------------- */
 
 h1{
-  margin-top: 200px;
+  margin-top: 100px;
   font-family: 'Source Sans Pro';
   font-weight: bold;
-  font-size: 5em;
+  font-size: 2em;
   margin-left: 10%;
 }
-
-#topics div{
-  background-color: grey;
-  width: 80%;
-  height: 200px;
-  margin: 10%;
-}
-
-#topics div p{
-  text-align: center;
-  font-family: 'Source Sans Pro';
-  font-weight: bold;
-  font-size: 3em;
-  padding-top: 5%;
-}
-
-#topics a{
-  text-decoration: none;
-  color: black;
-}
-
 
 #buttonTerug{
   width: 125px;
   height: 50px;
-  background-color: black;
+  background-color: grey;
   color: white;
   font-family: 'exo', sans-serif;
   font-size: 20px;
-  margin-top: 150px;
+  margin-top: 100px;
   float: left;
+  margin-left: 5%;
+  border-radius: 20px;
 }
 
 #buttonTerug:hover{
-  background-color: white;
+  background-color: #6DFEED;
   border: black solid thin;
   color: black;
+}
+
+#content{
+  font-family: 'Source Sans Pro';
+  text-align: center;
+}
+
+#content div{
+  background-color: grey;
+  width: 80%;
+  height: 300px;
+  margin-left: 10%;
+}
+
+#content div p{
+  text-align: center;
+  font-family: 'Source Sans Pro';
+  font-weight: bold;
+  font-size: 1em;
+  padding-top: 30%;
+  color: white;
+}
+
+#content a{
+  text-decoration: none;
+}
+
+/*CSS van procesLabWeeks.html*/
+
+#infoDagen{
+  margin-top: 0px;
+  font-family: 'Source Sans Pro';
+}
+
+#infoDagen div{
+  background-color: #F6F5F5;
+  height: 200px;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 10%;
+}
+
+/*CSS van procesLabWeeks.html*/
+
+h3{
+  background-color: black;
+  text-align: center;
+  color: white;
+}
+
+#linkProduct a{
+  font-family: 'Source Sans Pro';
+  text-align: center;
+  color: #6DFEED;
+  font-size: 1.5em;
 }
 
 /* -------------------- LAYOUT -------------------- */
@@ -58,11 +94,77 @@ h1{
 /*Breakpoint naar tablet*/
 @media only screen and (min-width: 768px){
 
+  #content div p{
+    text-align: center;
+    font-family: 'Source Sans Pro';
+    font-weight: bold;
+    font-size: 1em;
+    padding-top: 20%;
+    color: white;
+  }
 
+}
 
 /*Breakpoint naar laptop*/
 @media only screen and (min-width: 1366px){
 
+  h1{
+    font-size: 5em;
+    margin-top: 200px;
+  }
+
+  #content{
+    text-align: left;
+    margin-left: 10%;
+  }
+
+  h2{
+    margin-top: 70px;
+    font-style: italic;
+    color: white;
+    font-size: 3em;
+    text-align: inherit;
+    margin-left: 35%;
+    font-family: 'Source Sans Pro';
+  }
+
+  #top{
+    margin-top: 200px;
+    background-image: linear-gradient(to right, #9AFCFD, #6DFEED, #28AFB0, #6BBDBD);
+    height: 200px;
+  }
+
+  #buttonTerug{
+    margin-top: 50px;
+    margin-left: 5%;
+    float: left;
+  }
+
+  .grid-containerContent{
+    display: inline-block;
+    float: left;
+  }
+
+  .grid-containerContent .flex-item{
+    float: left;
+    margin-left: 1%;
+  }
+
+  #content div{
+    background-color: grey;
+    width: 30%;
+    height: 300px;
+    margin-left: 0%;
+  }
+
+  #content div p{
+    text-align: center;
+    font-family: 'Source Sans Pro';
+    font-weight: bold;
+    font-size: 1em;
+    padding-top: 30%;
+    color: white;
+  }
 
 }
 /*Breakpoint naar desktop*/

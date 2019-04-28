@@ -4,10 +4,17 @@
 /* -------------------- LAYOUT -------------------- */
 
 h1{
-  margin-top: 200px;
+  margin-top: 100px;
   font-family: 'Source Sans Pro';
   font-weight: bold;
-  font-size: 5em;
+  font-size: 2em;
+  margin-left: 10%;
+}
+
+#uitleg{
+  font-family: 'Source Sans Pro';
+  font-size: 1em;
+  width: 80%;
   margin-left: 10%;
 }
 
@@ -15,15 +22,22 @@ h1{
   background-color: grey;
   width: 80%;
   height: 200px;
-  margin: 10%;
+  margin-left: 10%;
 }
 
 #topics div p{
   text-align: center;
   font-family: 'Source Sans Pro';
   font-weight: bold;
-  font-size: 3em;
-  padding-top: 5%;
+  font-size: 1em;
+  padding-top: 30%;
+  color: white;
+}
+
+.wearableTechnology{
+  background-image: url("../images/backgroundWearableTechnologyMobile.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #topics a{
@@ -31,22 +45,39 @@ h1{
   color: black;
 }
 
-
 #buttonTerug{
   width: 125px;
   height: 50px;
-  background-color: black;
+  background-color: grey;
   color: white;
   font-family: 'exo', sans-serif;
   font-size: 20px;
-  margin-top: 150px;
+  margin-top: 100px;
   float: left;
+  margin-left: 5%;
+  border-radius: 20px;
 }
 
 #buttonTerug:hover{
-  background-color: white;
+  background-color: #6DFEED;
   border: black solid thin;
   color: black;
+}
+
+#content div{
+  font-family: 'Source Sans Pro';
+  text-align: center;
+  border: thin black solid;
+  width: 40%;
+  height: 500px;
+}
+
+h2{
+  margin-top: 50px;
+  font-family: 'Source Sans Pro';
+  font-weight: bold;
+  font-size: 1.5em;
+  text-align: center;
 }
 
 /* -------------------- LAYOUT -------------------- */
@@ -59,10 +90,67 @@ h1{
 @media only screen and (min-width: 768px){
 
 
+  .wearableTechnology{
+    background-image: url("../images/backgroundWearableTechnologyTablet.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
 
 /*Breakpoint naar laptop*/
 @media only screen and (min-width: 1366px){
 
+h1{
+  font-size: 5em;
+  margin-top: 200px;
+}
+
+h2{
+  margin-top: 70px;
+  font-style: italic;
+  color: white;
+  font-size: 3em;
+  text-align: inherit;
+  margin-left: 35%;
+}
+
+#top{
+  margin-top: 200px;
+  background-image: linear-gradient(to right, #9AFCFD, #6DFEED, #28AFB0, #6BBDBD);
+  height: 200px;
+}
+
+#buttonTerug{
+  margin-top: 50px;
+  margin-left: 5%;
+  float: left;
+}
+
+#topics div p{
+  font-size: 3em;
+  padding-top: 5%;
+}
+
+.wearableTechnology{
+  background-image: url("../images/backgroundWearableTechnology.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#content{
+  text-align: left;
+  margin-left: 10%;
+  margin-top: 100px;
+}
+
+.grid-containerContent{
+  display: flex;
+  margin: 10%;
+}
+
+.grid-containerContent .flex-item{
+  margin: 5%;
+}
 
 }
 /*Breakpoint naar desktop*/
