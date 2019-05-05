@@ -38,6 +38,12 @@ h1{
   color: black;
 }
 
+.arduino{
+  background-image: url("../images/backgroundArduinoMobile.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .arduino:hover{
   background-color: #6DFEED;
   background-image: none;
@@ -67,23 +73,27 @@ i:hover{
   -webkit-transform: rotate(135deg);
 }
 
-/*#buttonTerug{
-  width: 125px;
-  height: 50px;
-  background-color: black;
-  color: white;
-  font-family: 'exo', sans-serif;
-  font-size: 20px;
+/* CSS voor Arduino*/
+
+#top{
   margin-top: 150px;
-  float: left;
+  background-image: linear-gradient(to right, #9AFCFD, #6DFEED, #28AFB0, #6BBDBD);
+  height: 200px;
+  width: 100%;
 }
 
-#buttonTerug:hover{
-  background-color: white;
-  border: black solid thin;
-  color: black;
-}*/
-
+h2{
+  margin-top: 70px;
+  font-family: 'Source Sans Pro';
+  font-weight: bold;
+  font-style: italic;
+  font-size: 1.5em;
+  text-align: center;
+  text-align: inherit;
+  color: white;
+  z-index: 1;
+  margin-left: 40%;
+}
 
 #content div{
   font-family: 'Source Sans Pro';
@@ -92,17 +102,25 @@ i:hover{
   height: 500px;
   margin-left: 5%;
   margin-right: 5%;
+  margin-top: 200px;
 }
 
+#content{
+  text-align: left;
+  margin-left: 10%;
+  margin-top: -150px;
+}
 
-h2{
-  margin-top: 50px;
+#uitlegArduino{
+  margin-top: 0px;
   font-family: 'Source Sans Pro';
-  font-weight: bold;
-  font-size: 1.5em;
-  text-align: center;
+  width: 80%;
+  margin-left: 10%;
 }
 
+#uitlegArduino img{
+  width: 100%;
+}
 
 h3{
   font-family: 'Source Sans Pro';
@@ -110,6 +128,34 @@ h3{
   font-size: 1.5em;
   text-align: center;
 }
+
+hr{
+  width: 40%;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #6DFEED;
+}
+
+h4{
+  font-family: 'Source Sans Pro';
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+#content img{
+  width: 100%;
+}
+
+video{
+  width: 100%;
+}
+
+.opdracht3C{
+  margin-top: 250px;
+}
+
+/* CSS voor Arduino*/
+
 
 /* -------------------- LAYOUT -------------------- */
 
@@ -120,7 +166,43 @@ h3{
 /*Breakpoint naar tablet*/
 @media only screen and (min-width: 768px){
 
+  .arduino{
+    background-image: url("../images/backgroundArduinoTablet.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
+  #workshops div p{
+    font-size: 1.5em;
+    padding-top: 15%;
+  }
+
+  /* CSS voor Arduino*/
+
+  h2{
+    margin-left: 45%;
+  }
+
+  #content{
+    text-align: left;
+    margin-left: 10%;
+    margin-top: -600px;
+  }
+
+  #content div{
+    font-family: 'Source Sans Pro';
+    /*border: thin black solid;*/
+    width: 80%;
+    height: 500px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 650px;
+  }
+
+
+  /* CSS voor Arduino*/
+
+}
 
 /*Breakpoint naar laptop*/
 @media only screen and (min-width: 1366px){
@@ -145,15 +227,34 @@ h3{
     height: 200px;
   }
 
+  #tekstUitleg{
+    float: left;
+    width: 30%;
+    margin-top: 100px;
+  }
+
+  #uitlegArduino img{
+    float: right;
+    width: 60%;
+    margin-top: 100px;
+  }
+
   #workshops div p{
     font-size: 3em;
     padding-top: 5%;
   }
 
   #content{
-    text-align: left;
-    margin-left: 10%;
-    margin-top: 100px;
+    margin-top: -150px;
+  }
+
+  #content div{
+    margin-top: 300px;
+  }
+
+  #content p{
+    text-align: center;
+    margin-bottom: 50px;
   }
 
   .arduino{
@@ -162,12 +263,27 @@ h3{
     background-size: cover;
   }
 
+  #content img{
+    width: 50%;
+  }
 
+  video{
+    width: 40%;
+    height: auto;
+  }
 
 }
 /*Breakpoint naar desktop*/
 @media only screen and (min-width: 1920px) and (max-width: 1920px){
 
+  #content{
+    margin-top: -400px;
+  }
 
+  #content div{
+    margin-top: 500px;
+  }
+
+}
 
 /* -------------------- MEDIA SIZE -------------------- */
