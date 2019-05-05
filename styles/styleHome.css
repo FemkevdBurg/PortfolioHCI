@@ -44,6 +44,14 @@
   margin-left: 10%;
 }
 
+.aboutFemke a{
+  color: #6DFEED;
+}
+
+.aboutFemke a:hover{
+  color: grey;
+}
+
 .overHCI{
   border: solid 5px #6DFEED;
   width: 80%;

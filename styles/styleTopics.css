@@ -19,7 +19,7 @@ h1{
 }
 
 #topics div{
-  background-color: grey;
+  /*background-color: grey;*/
   width: 80%;
   height: 200px;
   margin-left: 10%;
@@ -40,9 +40,53 @@ h1{
   background-size: cover;
 }
 
+.playfulInteractions{
+  background-image: url("../images/backgroundPlayfulInteractionMobile.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.artificialCreatures, .augmentedVirtualReality{
+  background-color: grey;
+}
+
+.wearableTechnology:hover, .playfulInteractions:hover{
+  background-color: #6DFEED;
+  background-image: none;
+}
+
+i {
+  border: solid grey;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 10px;
+  margin-left: 5%;
+  margin-top: 80px;
+  float: left;
+}
+
+i:hover{
+  border: solid white;
+  border-width: 0 3px 3px 0;
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
 #topics a{
   text-decoration: none;
   color: black;
+}
+
+/*CSS voor Wearable Technology*/
+
+#top{
+  margin-top: 150px;
+  background-image: linear-gradient(to right, #9AFCFD, #6DFEED, #28AFB0, #6BBDBD);
+  height: 200px;
+  width: 100%;
 }
 
 #buttonTerug{
@@ -66,19 +110,105 @@ h1{
 
 #content div{
   font-family: 'Source Sans Pro';
-  text-align: center;
-  border: thin black solid;
-  width: 40%;
+  /*border: thin black solid;*/
+  width: 80%;
   height: 500px;
+  margin-left: 10%;
+  margin-right: 5%;
+}
+
+hr{
+  width: 40%;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #6DFEED;
 }
 
 h2{
+  margin-top: 70px;
+  font-family: 'Source Sans Pro';
+  font-weight: bold;
+  font-style: italic;
+  font-size: 1.5em;
+  text-align: center;
+  text-align: inherit;
+  color: white;
+  z-index: 1;
+  margin-left: 25%;
+}
+
+#uitleg{
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#uitleg p{
+  font-size: 1.3em;
+  font-family: 'Source Sans Pro';
   margin-top: 50px;
+}
+
+h3{
   font-family: 'Source Sans Pro';
   font-weight: bold;
   font-size: 1.5em;
   text-align: center;
 }
+
+.flex-itemImage1{
+  height: 165px;
+  margin: -10%;
+  margin-top: 5px;
+}
+
+.flex-itemImage2{
+  height: 200px;
+  margin-left: -10%;
+  margin-top: 30px;
+}
+
+.flex-itemImage3{
+  height: 200px;
+  margin-left: -10%;
+  margin-top: 5px;
+}
+
+#exampleSmartTattoo{
+  margin-bottom: -50px;
+  margin-left: -20%;
+  position: relative;
+}
+
+#exampleSmartTattoo iframe{
+  margin-left: -20%;
+}
+
+#exampleSmartTattoo img{
+  width: 250px;
+  height: 170px;
+  position: relative;
+  margin-left: -10%;
+}
+
+#exampleWearableTechnologyPrison{
+  left: -10%;
+  position: relative;
+}
+
+.research{
+  margin-top: 1150px;
+}
+
+.reflect{
+  margin-top: 1250px;
+}
+
+.reflect p{
+  margin-bottom: 80px;
+}
+
+/*CSS voor Wearable Technology*/
 
 /* -------------------- LAYOUT -------------------- */
 
@@ -89,12 +219,89 @@ h2{
 /*Breakpoint naar tablet*/
 @media only screen and (min-width: 768px){
 
-
   .wearableTechnology{
     background-image: url("../images/backgroundWearableTechnologyTablet.png");
     background-repeat: no-repeat;
     background-size: cover;
   }
+
+  .playfulInteractions{
+    background-image: url("../images/backgroundPlayfulInteractionTablet.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #topics div p{
+    font-size: 1.5em;
+    padding-top: 15%;
+    color: white;
+  }
+
+  /*CSS voor Wearable Technology*/
+
+  h2{
+    margin-left: 35%;
+  }
+
+  .grid-containerImages{
+    text-align: center;
+  }
+
+  .flex-itemImage1{
+    height: 250px;
+    margin: -10%;
+    margin-top: 5px;
+    text-align: center;
+  }
+
+  .flex-itemImage2{
+    height: 300px;
+    margin-left: 0%;
+    margin-top: 55px;
+  }
+
+  .flex-itemImage3{
+    height: 300px;
+    margin-left: 0%;
+    margin-top: 5px;
+  }
+
+  .research{
+    margin-top: 1000px;
+  }
+
+    #exampleSmartTattoo{
+      margin-bottom: -220px;
+      margin-left: -20%;
+      position: relative;
+    }
+
+    #exampleSmartTattoo iframe{
+      margin-left: -20%;
+      float: left;
+    }
+
+    #exampleSmartTattoo img{
+      width: 300px;
+      height: 170px;
+      position: absolute;
+      margin-left: 0%;
+      float: right;
+    }
+
+    #exampleWearableTechnologyPrison{
+      left: 0%;
+      position: absolute;
+    }
+
+  .reflect{
+    margin-top: 550px;
+    margin-bottom: -150px;
+  }
+
+  /*CSS voor Wearable Technology*/
+
+}
 
 
 /*Breakpoint naar laptop*/
@@ -115,7 +322,7 @@ h2{
 }
 
 #top{
-  margin-top: 200px;
+  margin-top:200px;
   background-image: linear-gradient(to right, #9AFCFD, #6DFEED, #28AFB0, #6BBDBD);
   height: 200px;
 }
@@ -137,25 +344,144 @@ h2{
   background-size: cover;
 }
 
+.playfulInteractions{
+  background-image: url("../images/backgroundPlayfulInteraction.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* CSS voor wearable Technology */
+
 #content{
   text-align: left;
   margin-left: 10%;
   margin-top: 100px;
 }
 
-.grid-containerContent{
-  display: flex;
-  margin: 10%;
+#content div{
+  margin-left: 5%;
 }
 
-.grid-containerContent .flex-item{
-  margin: 5%;
+#uitleg{
+  text-align: center;
 }
+
+.grid-containerImages{
+  display: flex;
+  position: relative;
+  margin-top: 50px;
+}
+
+.flex-itemImage1{
+  height: 250px;
+  margin: -10%;
+  margin-top: 0px;
+}
+
+.flex-itemImage2{
+  height: 250px;
+  margin-left: 15%;
+  margin-top: 0px;
+}
+
+.flex-itemImage3{
+  height: 250px;
+  margin-left: 5%;
+}
+
+.grid-containerImages{
+  margin-bottom: -200px;
+}
+
+.research{
+  margin-top: 250px;
+}
+
+#exampleSmartTattoo{
+  margin-bottom: -220px;
+  text-align: center;
+}
+
+#exampleSmartTattoo{
+  margin-bottom: -220px;
+  margin-left: -20%;
+  position: relative;
+  text-align: center;
+}
+
+#exampleSmartTattoo iframe{
+  margin-left: 15%;
+}
+
+#exampleSmartTattoo img{
+  width: 380px;
+  height: 250px;
+  position: relative;
+}
+
+#exampleWearableTechnologyPrison{
+  left: 5%;
+  position: relative;
+}
+
+#exampleWearableTechnologyPrison{
+  text-align: center;
+}
+
+.reflect{
+  margin-top: 400px;
+  margin-bottom: -250px;
+}
+
+/* CSS voor wearable Technology */
 
 }
 /*Breakpoint naar desktop*/
 @media only screen and (min-width: 1920px) and (max-width: 1920px){
 
+/* CSS voor wearable Technology */
 
+h2{
+  margin-left: 40%;
+}
+
+.flex-itemImage1{
+  margin: 0%;
+}
+
+.flex-itemImage2{
+  margin-left: 5%;
+}
+
+.assignments{
+  margin-top: -50px;
+}
+
+.research{
+  margin-top: 180px;
+}
+
+#exampleSmartTattoo iframe{
+  margin-left: 25%;
+}
+
+#exampleSmartTattoo img{
+  position: absolute;
+  margin-left: -25%;
+}
+
+#exampleWearableTechnologyPrison img{
+  left: 0%;
+  width: 400px;
+  height: auto;
+}
+
+.reflect{
+  margin-top: 450px;
+}
+
+/* CSS voor wearable Technology */
+
+}
 
 /* -------------------- MEDIA SIZE -------------------- */
