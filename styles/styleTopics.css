@@ -46,11 +46,17 @@ h1{
   background-size: cover;
 }
 
+.artificialCreatures{
+  background-image: url("../images/backgroundArtificialCreaturesMobile.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .artificialCreatures, .augmentedVirtualReality{
   background-color: grey;
 }
 
-.wearableTechnology:hover, .playfulInteractions:hover{
+.wearableTechnology:hover, .playfulInteractions:hover, .artificialCreatures:hover{
   background-color: #6DFEED;
   background-image: none;
 }
@@ -89,7 +95,7 @@ i:hover{
   width: 100%;
 }
 
-#buttonTerug{
+/*#buttonTerug{
   width: 125px;
   height: 50px;
   background-color: grey;
@@ -106,7 +112,7 @@ i:hover{
   background-color: #6DFEED;
   border: black solid thin;
   color: black;
-}
+}*/
 
 #content div{
   font-family: 'Source Sans Pro';
@@ -210,6 +216,18 @@ h3{
 
 /*CSS voor Wearable Technology*/
 
+/*CSS voor Playful Interaction*/
+
+.research a{
+  color: #6DFEED;
+}
+
+.research a:hover{
+  color: grey;
+}
+
+/*CSS voor Playful Interaction*/
+
 /* -------------------- LAYOUT -------------------- */
 
 
@@ -219,18 +237,6 @@ h3{
 /*Breakpoint naar tablet*/
 @media only screen and (min-width: 768px){
 
-  .wearableTechnology{
-    background-image: url("../images/backgroundWearableTechnologyTablet.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-  .playfulInteractions{
-    background-image: url("../images/backgroundPlayfulInteractionTablet.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
   #topics div p{
     font-size: 1.5em;
     padding-top: 15%;
@@ -238,6 +244,12 @@ h3{
   }
 
   /*CSS voor Wearable Technology*/
+
+  .wearableTechnology{
+    background-image: url("../images/backgroundWearableTechnologyTablet.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
   h2{
     margin-left: 35%;
@@ -301,8 +313,27 @@ h3{
 
   /*CSS voor Wearable Technology*/
 
-}
+  /*CSS voor Playful Interaction*/
 
+  .playfulInteractions{
+    background-image: url("../images/backgroundPlayfulInteractionTablet.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  /*CSS voor Playful Interaction*/
+
+  /*CSS voor Artificial Creatures*/
+
+  .artificialCreatures{
+    background-image: url("../images/backgroundArtificialCreaturesTablet.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  /*CSS voor Artificial Creatures*/
+
+}
 
 /*Breakpoint naar laptop*/
 @media only screen and (min-width: 1366px){
@@ -338,19 +369,13 @@ h2{
   padding-top: 5%;
 }
 
+/* CSS voor wearable Technology */
+
 .wearableTechnology{
   background-image: url("../images/backgroundWearableTechnology.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-.playfulInteractions{
-  background-image: url("../images/backgroundPlayfulInteraction.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-/* CSS voor wearable Technology */
 
 #content{
   text-align: left;
@@ -435,6 +460,43 @@ h2{
 
 /* CSS voor wearable Technology */
 
+/*CSS voor Playful Interaction*/
+
+.playfulInteractions{
+  background-image: url("../images/backgroundPlayfulInteraction.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.pictureMusicalSwings{
+  width: 40%;
+  height: 50%;
+  text-align: center;
+}
+
+#videoMusicalSwings{
+  width: 50%;
+  height: 50%;
+}
+
+#illustratiesMusicalSwings{
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: -200px;
+}
+
+/*CSS voor Playful Interaction*/
+
+/*CSS voor Artificial Creatures*/
+
+.artificialCreatures{
+  background-image: url("../images/backgroundArtificialCreatures3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*CSS voor Artificial Creatures*/
+
 }
 /*Breakpoint naar desktop*/
 @media only screen and (min-width: 1920px) and (max-width: 1920px){
@@ -481,6 +543,14 @@ h2{
 }
 
 /* CSS voor wearable Technology */
+
+/*CSS voor Playful Interaction*/
+
+/*CSS voor Playful Interaction*/
+
+/*CSS voor Artificial Creatures*/
+
+/*CSS voor Artificial Creatures*/
 
 }
 
