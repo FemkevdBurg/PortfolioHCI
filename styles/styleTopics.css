@@ -11,7 +11,7 @@ h1{
   margin-left: 10%;
 }
 
-#uitleg{
+#uitleg, #uitlegTopics{
   font-family: 'Source Sans Pro';
   font-size: 1em;
   width: 80%;
@@ -143,13 +143,13 @@ h2{
   margin-left: 25%;
 }
 
-#uitleg{
+#uitleg, #uitlegTopics{
   width: 80%;
   margin-left: 10%;
   margin-right: 10%;
 }
 
-#uitleg p{
+#uitleg p, #uitlegTopics p{
   font-size: 1.3em;
   font-family: 'Source Sans Pro';
   margin-top: 50px;
@@ -206,8 +206,25 @@ h3{
   margin-top: 1150px;
 }
 
+.research a:visited{
+  color: #6DFEED;
+}
+
+.research a{
+  color: #6DFEED;
+  width: 80%;
+}
+
+#bronGevangenisVoorbeeld{
+  
+}
+
+.research a:hover{
+  color: grey;
+}
+
 .reflect{
-  margin-top: 1250px;
+  margin-top: 1300px;
 }
 
 .reflect p{
@@ -218,16 +235,30 @@ h3{
 
 /*CSS voor Playful Interaction*/
 
-.research a{
+
+.researchPlayfulInteraction{
+  margin-top: 1650px;
+}
+
+.imagesColorTheLift{
+  margin-bottom: 100px;
+}
+
+.researchPlayfulInteraction a:visited{
   color: #6DFEED;
 }
 
-.research a:hover{
+.researchPlayfulInteraction a{
+  color: #6DFEED;
+}
+
+.researchPlayfulInteraction a:hover{
   color: grey;
 }
 
 #illustratiesMusicalSwings{
   width: 80%;
+  margin-bottom: -180px;
 }
 
 .pictureMusicalSwings{
@@ -239,6 +270,10 @@ h3{
 
 #videoMusicalSwings{
 margin-left: -17%;
+}
+
+.reflectPlayfulInteraction{
+  margin-top: 900px;
 }
 
 /*CSS voor Playful Interaction*/
@@ -437,6 +472,15 @@ h2{
   margin-top: 250px;
 }
 
+.researchPlayfulInteraction{
+  margin-top: 450px;
+}
+
+.research a{
+  z-index: 10;
+  position: relative;
+}
+
 #exampleSmartTattoo{
   margin-bottom: -220px;
   text-align: center;
@@ -492,6 +536,7 @@ h2{
 #videoMusicalSwings{
   width: 50%;
   height: 50%;
+  margin-left: 0%;
 }
 
 #illustratiesMusicalSwings{
