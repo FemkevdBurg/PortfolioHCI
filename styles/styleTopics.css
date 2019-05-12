@@ -226,6 +226,21 @@ h3{
   color: grey;
 }
 
+#illustratiesMusicalSwings{
+  width: 80%;
+}
+
+.pictureMusicalSwings{
+  width: 100%;
+  height: 30%;
+  text-align: center;
+  margin-left: -10%;
+}
+
+#videoMusicalSwings{
+margin-left: -17%;
+}
+
 /*CSS voor Playful Interaction*/
 
 /* -------------------- LAYOUT -------------------- */
