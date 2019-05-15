@@ -52,11 +52,7 @@ h1{
   background-size: cover;
 }
 
-.artificialCreatures, .augmentedVirtualReality{
-  background-color: grey;
-}
-
-.wearableTechnology:hover, .playfulInteractions:hover, .artificialCreatures:hover{
+.wearableTechnology:hover, .playfulInteractions:hover, .artificialCreatures:hover, .augmentedVirtualReality:hover{
   background-color: #6DFEED;
   background-image: none;
 }
@@ -216,7 +212,7 @@ h3{
 }
 
 #bronGevangenisVoorbeeld{
-  
+
 }
 
 .research a:hover{
@@ -277,6 +273,10 @@ margin-left: -17%;
 }
 
 /*CSS voor Playful Interaction*/
+
+/*CSS voor Augmented en Virtual Reality*/
+
+/*CSS voor Augmented en Virtual Reality*/
 
 /* -------------------- LAYOUT -------------------- */
 
@@ -383,6 +383,17 @@ margin-left: -17%;
 
   /*CSS voor Artificial Creatures*/
 
+
+  /*CSS voor Augmented en Virtual Reality*/
+
+  .augmentedVirtualReality{
+    background-image: url("../images/backgroundAugmentedVirtualRealityTablet.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  /*CSS voor Augmented en Virtual Reality*/
+
 }
 
 /*Breakpoint naar laptop*/
@@ -422,7 +433,7 @@ h2{
 /* CSS voor wearable Technology */
 
 .wearableTechnology{
-  background-image: url("../images/backgroundWearableTechnology.png");
+  background-image: url("../images/backgroundWearableTechnology+B.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -522,7 +533,7 @@ h2{
 /*CSS voor Playful Interaction*/
 
 .playfulInteractions{
-  background-image: url("../images/backgroundPlayfulInteraction.png");
+  background-image: url("../images/backgroundPlayfulInteraction+B.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -545,17 +556,32 @@ h2{
   margin-bottom: -200px;
 }
 
+.reflectPlayfulInteraction{
+  margin-top: 350px;
+  margin-bottom: -250px;
+}
+
 /*CSS voor Playful Interaction*/
 
 /*CSS voor Artificial Creatures*/
 
 .artificialCreatures{
-  background-image: url("../images/backgroundArtificialCreatures3.png");
+  background-image: url("../images/backgroundArtificialCreatures+B.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 /*CSS voor Artificial Creatures*/
+
+/*CSS voor Augmented en Virtual Reality*/
+
+.augmentedVirtualReality{
+  background-image: url("../images/backgroundAugmentedVirtualReality3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*CSS voor Augmented en Virtual Reality*/
 
 }
 /*Breakpoint naar desktop*/

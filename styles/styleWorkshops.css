@@ -44,12 +44,18 @@ h1{
   background-size: cover;
 }
 
-.arduino:hover{
+.VRenvironments{
+  background-image: url("../images/backgroundVRenvironmentsMobile.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.arduino:hover, .VRenvironments:hover{
   background-color: #6DFEED;
   background-image: none;
 }
 
-.VRenvironments, .computerVision{
+.computerVision{
   background-color: grey;
 }
 
@@ -172,6 +178,12 @@ video{
     background-size: cover;
   }
 
+  .VRenvironments{
+    background-image: url("../images/backgroundVRenvironmentsTablet.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
   #workshops div p{
     font-size: 1.5em;
     padding-top: 15%;
@@ -258,7 +270,7 @@ video{
   }
 
   .arduino{
-    background-image: url("../images/backgroundArduino.png");
+    background-image: url("../images/backgroundArduino+B.png");
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -270,6 +282,12 @@ video{
   video{
     width: 40%;
     height: auto;
+  }
+
+  .VRenvironments{
+    background-image: url("../images/backgroundVREnvironments.png");
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
 }
