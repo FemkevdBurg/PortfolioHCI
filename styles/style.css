@@ -328,7 +328,8 @@ nav ul .focus{
       }
 
       .grid-container.footer{
-        margin-top: 300px;
+        /*marging-top: 300px;*/
+        margin-top: 2000px;
       }
 
 }

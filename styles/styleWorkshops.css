@@ -18,6 +18,21 @@ h1{
   margin-left: 10%;
 }
 
+#tekstUitleg a{
+  color: #6DFEED;
+}
+
+#tekstUitleg a:hover{
+  color: grey;
+}
+
+#uitlegOpdrachten{
+  font-family: 'Source Sans Pro';
+  font-size: 1em;
+  width: 80%;
+  margin-left: 10%;
+}
+
 #workshops div{
   width: 80%;
   height: 200px;
@@ -162,6 +177,23 @@ video{
 
 /* CSS voor Arduino*/
 
+/* CSS voor VR Environments */
+
+#voorbeeld1, #voorbeeld2, #voorbeeld3, #voorbeeld4{
+  display: flex;
+  position: absolute;
+  margin-top: -300px;
+  text-align: center;
+  color: black;
+}
+
+.opdracht2VRenvironments{
+  margin-top: 200px;
+}
+
+/* CSS voor VR Environments */
+
+
 
 /* -------------------- LAYOUT -------------------- */
 
@@ -284,11 +316,90 @@ video{
     height: auto;
   }
 
+/* CSS voor VR Environments */
+
   .VRenvironments{
     background-image: url("../images/backgroundVREnvironments.png");
     background-repeat: no-repeat;
     background-size: cover;
   }
+
+  #voorbeeld1 p{
+    text-align: left;
+    width: 30%;
+    margin-top: -300px;
+    margin-left: -5%;
+    background-color: #6DFEED;
+    height: 50%;
+    padding: 5%;
+    padding-top: 2%;
+  }
+
+  #voorbeeld1 img{
+    margin-top: -300px;
+    width: 40%;
+    height: 65%;
+  }
+
+  #voorbeeld2 p{
+    text-align: left;
+    width: 30%;
+    margin-top: 100px;
+    margin-left: 0%;
+    background-color: #6DFEED;
+    height: 50%;
+    padding: 5%;
+    padding-top: 2%;
+  }
+
+  #voorbeeld2 video{
+    margin-top: 30px;
+    width: 40%;
+    height: 80%;
+    margin-left: -5%;
+  }
+
+  #voorbeeld3 p{
+    text-align: left;
+    width: 30%;
+    margin-top: 500px;
+    margin-left: -5%;
+    background-color: #6DFEED;
+    height: 50%;
+    padding: 5%;
+    padding-top: 2%;
+  }
+
+  #voorbeeld3 video{
+    margin-top: 430px;
+    width: 40%;
+    height: 80%;
+  }
+
+  #voorbeeld4 p{
+    text-align: left;
+    width: 30%;
+    margin-top: 900px;
+    margin-left: 0%;
+    background-color: #6DFEED;
+    height: 50%;
+    padding: 5%;
+    padding-top: 2%;
+  }
+
+  #voorbeeld4 video{
+    margin-top: 830px;
+    width: 40%;
+    height: 80%;
+    margin-left: -5%;
+  }
+
+  .opdracht2VRenvironments{
+    top: 1200px;
+    position: relative;
+  }
+
+  /* CSS voor VR Environments */
 
 }
 /*Breakpoint naar desktop*/
