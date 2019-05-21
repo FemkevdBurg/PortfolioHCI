@@ -180,15 +180,33 @@ video{
 /* CSS voor VR Environments */
 
 #voorbeeld1, #voorbeeld2, #voorbeeld3, #voorbeeld4{
-  display: flex;
-  position: absolute;
-  margin-top: -300px;
-  text-align: center;
+  margin-top: 20px;
   color: black;
 }
 
+#voorbeeld1{
+  top: -150px;
+  position: relative;
+}
+
+#voorbeeld2{
+  top: -500px;
+  position: relative;
+}
+
+#voorbeeld3{
+  top: -650px;
+  position: relative;
+}
+
+#voorbeeld4{
+  top: -700px;
+  position: relative;
+}
+
 .opdracht2VRenvironments{
-  margin-top: 200px;
+  position: relative;
+  top: 2000px;
 }
 
 /* CSS voor VR Environments */
@@ -243,13 +261,45 @@ video{
     margin-top: 650px;
   }
 
-
   /* CSS voor Arduino*/
+
+  /* CSS voor VR Environments */
+
+  #voorbeeld1{
+    top: -600px;
+    position: relative;
+  }
+
+  #voorbeeld2{
+    top: -1300px;
+    position: relative;
+  }
+
+  #voorbeeld3{
+    top: -1950px;
+    position: relative;
+  }
+
+  #voorbeeld4{
+    top: -2550px;
+    position: relative;
+  }
+
+  .opdracht2VRenvironments{
+    position: relative;
+    top: 1200px;
+  }
+
+  /* CSS voor VR Environments */
 
 }
 
 /*Breakpoint naar laptop*/
 @media only screen and (min-width: 1366px){
+
+  .grid-container.footer{
+    margin-top: 5000px;
+  }
 
   h1{
     font-size: 5em;
@@ -297,7 +347,7 @@ video{
   }
 
   #content p{
-    text-align: center;
+    text-align: left;
     margin-bottom: 50px;
   }
 
@@ -318,10 +368,43 @@ video{
 
 /* CSS voor VR Environments */
 
+#voorbeeld1, #voorbeeld2, #voorbeeld3, #voorbeeld4{
+  margin-top: 1500px;
+  color: black;
+}
+
+#voorbeeld1{
+  top: 1500px;
+  position: inherit;
+}
+
+#voorbeeld2{
+  top: 1500px;
+  position: inherit;
+}
+
+#voorbeeld3{
+  top: 1500px;
+  position: inherit;
+}
+
+#voorbeeld4{
+  top: 1500px;
+  position: inherit;
+}
+
   .VRenvironments{
     background-image: url("../images/backgroundVREnvironments.png");
     background-repeat: no-repeat;
     background-size: cover;
+  }
+
+  #voorbeeld1, #voorbeeld2, #voorbeeld3, #voorbeeld4{
+    display: flex;
+    position: absolute;
+    margin-top: -300px;
+    text-align: center;
+    color: black;
   }
 
   #voorbeeld1 p{
@@ -397,6 +480,52 @@ video{
   .opdracht2VRenvironments{
     top: 1200px;
     position: relative;
+  }
+
+  #imagesBananaTurntable{
+    top: -250px;
+    position: relative;
+    float: left;
+  }
+
+  #uitlegBananaTurntable p{
+    float: right;
+    width: 40%;
+    margin-top: -700px;
+    text-align: justify;
+  }
+
+  .opdracht2VRenvironments video{
+    margin-left: 20%;
+    margin-top: 100px;
+    width: 55%;
+    border: solid #6DFEED 10px;
+  }
+
+  .opdracht3VRenvironments{
+    top: 4700px;
+    position: absolute;
+    left: 5%;
+  }
+
+  #imagesBananaCollector{
+    position: relative;
+    left: 0%;
+    top: -200px;
+  }
+
+  #uitlegBananaCollector p{
+    float: right;
+    width: 40%;
+    margin-top: -1000px;
+    text-align: justify;
+  }
+
+  .opdracht3VRenvironments video{
+    margin-top: 800px;
+    width: 55%;
+    border: solid #6DFEED 10px;
+    margin-left: 20%;
   }
 
   /* CSS voor VR Environments */

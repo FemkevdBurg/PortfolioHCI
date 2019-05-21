@@ -327,10 +327,9 @@ nav ul .focus{
         flex: column;
       }
 
-      .grid-container.footer{
-        /*marging-top: 300px;*/
-        margin-top: 2000px;
-      }
+      /*.grid-container.footer{
+        margin-top: 3000px;
+      }*/
 
 }
 

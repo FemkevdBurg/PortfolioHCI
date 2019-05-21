@@ -94,17 +94,43 @@
         <div class="opdracht2VRenvironments flex-item">
           <hr>
           <h3>Opdracht 2 (deel 1): Unreal Enginge - Banana Turntable</h3>
-          <p>Uitleg</p>
-          <!-- foto's, video's-->
+          <p>Voor deze opdracht moest ik van te voren de enginge installeren want dat kost aardig wat tijd. Tijdens de workshop ging ik bij het eerste deel van de opdracht Unreal Enginge aan de slag met het navigeren door de interface en het maken van mijn eerste game-object. Hierbij was het de bedoeling dat je een gele banaan kreeg die ronddraait, zodat we die weer bij het tweede deel konden gebruiken. Hiervoor heb ik meerdere stappen doorlopen. Hieronder worden wat screenshots van deze stappen getoond en een filmpje van het eindresultaat.</p>
+          <div id="imagesBananaTurntable">
+            <img src="images/unrealEngine1.png"></img>
+            <img src="images/unrealEngine2.png"></img>
+            <img src="images/unrealEngine3.png"></img>
+            <img src="images/unrealEngine4.png"></img>
+          </div>
+          <div id="uitlegBananaTurntable">
+            <p>Allereerst heb ik een nieuw project aangemaakt, met een blank template. Toen moest ik een model van een banaan downloaden en importeren. Deze banaan ging ik daarna in de viewport zetten, waarbij ik ook gelijk leerde hoe ik een object moet bewegen (W), draaien (E) en schalen (R). Om de banaan de gele kleur te geven moest ik een materiaal toevoegen. Hiervoor klikte ik op "Add New" en dan op "Material". Als ik dan op Banana_Material dubbel klikte opende zich een nieuw scherm waarrin ik het materiaal kon aanpassen (zie screenshot 2). Vervolgens moest ik "nodes" en "textures" toe gaan voegen. Hierbij kon ik gebruik maken van "Banana_Texture". De texture node en material node moesten verbonden worden via de output en input ervan. Nu kon je zien dat de bal (het voorbeeld) al geel was! Nu moest de kleur dus nog op de banaan gebracht worden, wat in de content browsers bij de detail panel in de editor geselecteerd kon worden. Om de banaan nu nog draaiende te krijgen moest ik blueprints gebruiken. Dit deed ik weer door bij "Add New" nu "Blueprint Class" aan te klikken en dan voor "Actor" te kiezen. Als ik op Banana_Blueprint dubbel klikte opende zich een nieuw scherm met de editor voor deze blueprint. Hier moest ik een cylinder (waar de banaan op komt) en static mesh (wat de banaan mesh gaat tonen) toe gaan voegen. De cylinder moest korter worden gemaakt d.m.v. de (R) scale manipulator. Als laatste moest ik nu nog blueprint nodes toe gaan voegen in the Event Graph tab. Hierbij werden de output van de event trick en e default scene root verbonden met de input van AddLocalLocation, waarbij ook nog de Z van de delta rotation input in 1.0 veranderd moest worden. Door op Compile te drukken werd nu alles toegevoegd! In de viewport in de main editor moest ik alleen nog de banaan verwijderen en de nieuwe blueprint erin te zetten. Door op play te drukken kon ik hem nu zien draaien, zoals ook op mijn filmpje te zien is!!  </p>
+          </div>
+          <video controls>
+            <source src="images/videoUnrealEngine1.mp4" type="video/mp4">
+          </video>
         </div>
 
-<!--        <div class="opdracht flex-item">
+        <div class="opdracht3VRenvironments flex-item">
           <hr>
           <h3>Opdracht 2 (deel 2): Unreal Enginge - Banana Collector</h3>
-          <p>Uitleg</p>
-          <!-- foto's, video's
+          <p>Bij deze opdracht ging ik verder met het ontdekken van het programma Unreal Engine. Ik had bij opdracht 1 (zie hierboven) al een start gemaakt en het eindresultaat daarvan kwam later in deze opdracht ook weer naar voren. De bedoeling van deze opdracht was om meer te leren over blueprints en om hiermee een spelerpersonage te maken, inputs in te stellen en een item te laten verdwijnen wanneer de speler het aanraakt. Hiervoor heb ik weer meerdere stappen doorlopen. Hieronder worden dan ook weer screenshots van de stappen en een filmpje van het eindresultaat getoond.</p>
+          <div id="imagesBananaCollector">
+            <img src="images/unrealEngine5.png"></img>
+            <img src="images/unrealEngine6.png"></img>
+            <img src="images/unrealEngine7.png"></img>
+            <img src="images/unrealEngine8.png"></img>
+            <img src="images/unrealEngine9.png"></img>
+            <img src="images/unrealEngine10.png"></img>
+            <img src="images/unrealEngine11.png"></img>
+            <img src="images/unrealEngine12.png"></img>
+            <img src="images/unrealEngine13.png"></img>
+          </div>
+          <div id="uitlegBananaCollector">
+            <p>Allereerst moest ik "the starter project" downloaden en het project BananaCollector.unproject openen. Dan kreeg je het beeld te zien wat op de eerste afbeelding hiernaast te zien is. Vervolgens ging ik een camera toevoegen. Hiervoor ging ik naar de blueprint editor van BP_Player en drukte ik op Add Component om daar camera te selecteren. Deze camera moest verplaatst worden naar (-1100, 0, 2000) en geroteerd tot -60 graden op de Y-as (zie afbeelding 2). Een rood blokje moest uiteindelijk de "speler" gaan voorstellen, dus om dat te maken moest ik een Static Mesh bij Add Component toevoegen. Daarna heb ik bij de details nog SM_Cube voor de Static Mesh geselecteerd. Nu kon ik (na op compile gedrukt te hebben) terug naar de hoofd editor. Nu ging ik een gamemode toevoegen; een gamemode is een klasse die bepaalt hoe een speler het spel begint. Dus door Add New, Blueprint Class en Game Mode Base te selecteren creëerde ik dit. Nu moest ik alleen nog de pion klasse aan te geven, door bij Default Pawn Class BP_Player te selecteren. In de hoofd editor ging ik nu aangeven dat ik de game modus GM_Tutorial (die ik net had aangemaakt) wilde gebruikende, dus via World Settings veranderde ik dit. Nu kon ik de Player Start in het spel gaan plaatsen. Hiervoor zocht ik naar "Player Start" en die sleepte ik in het scherm, waarna je het beeld van afbeelding 4 van hiernaast te zien kreeg. Nu moest een sleutel aan een actie gaan toewijzen, wat "key binding" wordt genoemd. Ik ging naar Edit, Project Settings en dan naar Input onder de Engine sectie. Bij de bindings sectie kon ik hier mijn inputs gaan toevoegen. Om te zorgen dat de player uiteindelijk kan bewegen heb ik MoveForward (voor naar voren en naar achter) en MoveRight (voor naar links en naar rechts) toegevoegd. Deze acties heb ik toegewijsd aan vier toetsen: W, A, S en D, waarbij de S en A nog een scale van -1 kregen (zie ook afbeelding 5). Nu moest ik er nog voor gaan zorgen dat de pion echt zou kunnen gaan bewegen! Hiervoor opende ik de BP_Player in de blueprints editor. Om aan te geven hoe snel de pion zou bewegen moest ik variabelen toevoegen. Hierbij gebruikte ik MaxSpeed, Float en veranderde ik de Default Value naar 10. Vervolgens ben ik deze onderdelen in the Event Graph gaan zetten en gaan verbinden met de float * float node, de Get Forward Vector node en de Add Movement Input node. Hetzelfde proces voerde ik voor MoveRight uit. Deze verbindingen zijn in afbeelding 6 te zien. Om de pion nog echt te laten bewegen moest ik nog de Event Trick gebruiken en verbinden aan de Consume Movement Input Vector node en de AddActorLocalOffset node. Na op compile gedrukt te hebben kon ik nu de pion (het rode blokje) bewegen met de toetsen!! Alleen moest ik nog de frame snelheid veranderen door een vector * float node toe te voegen en die te verbinden met de delta seconds, de return value en de delta location. Ook moest de MaxSpeed veranderd worden naar 600. Nu was mijn game "onafhankelijk van de framesnelheid". Omdat de pion overal doorheen ging, ging ik tot slot meer leren over Collisions. Om een collision mesh te gebruiken moest de StaticMesh veranderd worden:de StaticMesh moest naar de DefaultSceneRoot gesleept worden, zodat de StaticMesh de nieuwe "root" werd. Ook moest ik bij de AddActorLocalOffset nog de "Sweep" input aanvinken. Het allerlaatste wat nu nog moest gebeuren was het zorgen dat een item verdwijnt wanneer de speler het aanraakt. Hiervoor ging ik de BP_Banana uit opdracht 1 gebruiken! In de StaticMesh component van BP_Banana ging ik naar de Collision sectie bij de details. Om de instellingen hierbij te kunnen veranderen moest ik "Custom" selecteren. Nu kon ik de "overlap" box bij WorldDynamic aanvinken. Om hiermee om te kunnen gaan moest ik een Event toevoegen bij de StaticMesh: de OnComponentBeginOverlap. Door een DestroyActor node hieraan te linken zal het item dus in het spel verdwijnen op de manier dat we het wilden. In de viewport van de Blueprints map heb ik nu de BP_Banana meerdere keren geplaatst en nu was mijn game af!! Door op play te drukken kon ik met de aangegeven toetsen navigeren door het spel en de banaantjes weghalen. Zie het filmpje hieronder voor hoe dit werkte en er uiteindelijk uitzag.</p>
+          </div>
+          <video controls>
+            <source src="images/videoUnrealEngine2.mp4" type="video/mp4">
+          </video>
         </div>
-      -->
 
     </section>
 

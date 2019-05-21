@@ -11,7 +11,7 @@ h1{
   margin-left: 10%;
 }
 
-#buttonTerug{
+/*#buttonTerug{
   width: 125px;
   height: 50px;
   background-color: grey;
@@ -28,6 +28,26 @@ h1{
   background-color: #6DFEED;
   border: black solid thin;
   color: black;
+}*/
+
+i {
+  border: solid grey;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 10px;
+  margin-left: 5%;
+  margin-top: 80px;
+  float: left;
+}
+
+i:hover{
+  border: solid white;
+  border-width: 0 3px 3px 0;
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
 }
 
 #content{
