@@ -54,7 +54,7 @@ h1{
 }
 
 .arduino{
-  background-image: url("../images/backgroundArduinoMobile.png");
+  background-image: url("../images/backgroundArduinoMobile+B.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -266,7 +266,7 @@ video{
 @media only screen and (min-width: 768px){
 
   .arduino{
-    background-image: url("../images/backgroundArduinoTablet.png");
+    background-image: url("../images/backgroundArduinoTablet+B.png");
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -479,6 +479,21 @@ video{
     background-color: #6DFEED;
     width: 20%;
     padding: 3%;
+  }
+
+  .opdracht11B{
+    position: relative;
+    top: 100px;
+  }
+
+  .opdracht12B{
+    position: relative;
+    top: 200px;
+  }
+
+  .opdracht13B{
+    position: relative;
+    top: 250px;
   }
 
 

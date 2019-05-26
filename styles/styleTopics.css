@@ -35,19 +35,25 @@ h1{
 }
 
 .wearableTechnology{
-  background-image: url("../images/backgroundWearableTechnologyMobile.png");
+  background-image: url("../images/backgroundWearableTechnologyMobile+B.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .playfulInteractions{
-  background-image: url("../images/backgroundPlayfulInteractionMobile.png");
+  background-image: url("../images/backgroundPlayfulInteractionMobile+B.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .artificialCreatures{
-  background-image: url("../images/backgroundArtificialCreaturesMobile.png");
+  background-image: url("../images/backgroundArtificialCreaturesMobile+B.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.augmentedVirtualReality{
+  background-image: url("../images/backgroundAugmentedVirtualRealityMobile.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -296,7 +302,7 @@ margin-left: -17%;
   /*CSS voor Wearable Technology*/
 
   .wearableTechnology{
-    background-image: url("../images/backgroundWearableTechnologyTablet.png");
+    background-image: url("../images/backgroundWearableTechnologyTablet+B.png");
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -366,7 +372,7 @@ margin-left: -17%;
   /*CSS voor Playful Interaction*/
 
   .playfulInteractions{
-    background-image: url("../images/backgroundPlayfulInteractionTablet.png");
+    background-image: url("../images/backgroundPlayfulInteractionTablet+B.png");
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -376,7 +382,7 @@ margin-left: -17%;
   /*CSS voor Artificial Creatures*/
 
   .artificialCreatures{
-    background-image: url("../images/backgroundArtificialCreaturesTablet.png");
+    background-image: url("../images/backgroundArtificialCreaturesTablet+B.png");
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -571,6 +577,10 @@ h2{
   background-size: cover;
 }
 
+.reflectArtificialCreatures{
+  margin-top: 350px;
+}
+
 /*CSS voor Artificial Creatures*/
 
 /*CSS voor Augmented en Virtual Reality*/
@@ -635,6 +645,7 @@ h2{
 /*CSS voor Playful Interaction*/
 
 /*CSS voor Artificial Creatures*/
+
 
 /*CSS voor Artificial Creatures*/
 
