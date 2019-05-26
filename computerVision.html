@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portfoliowebsite HCI</title>
+    <link type="text/css" href="styles/style.css" rel="stylesheet" />
+    <link type="text/css" href="styles/styleWorkshops.css" rel="stylesheet" />
+  </head>
+  <body>
+
+    <header>
+
+          <a href="index.html"><img src="images/logo.png" alt="logo" id="logo" onclick=""/></a>
+
+        <section class="grid-container menu">
+
+          <div class="menutoggle">
+            <p>Menu</p>
+            <a id="nav-toggle" href="#"><span></span></a>
+          </div>
+
+          <div>
+          <nav id="menu" class="inactive">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="topics.html">Topics</a></li>
+              <li><a href="workshops.html" id="active">Workshops</a></li>
+              <li><a href="excursion.html">Excursion</a></li>
+              <li><a href="labWeeks.html">Lab Weeks</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        </section>
+
+    </header>
+
+    <div id="top">
+      <a href="workshops.html"><i class="arrow left"></i></a>
+      <h2>Computer Vision.</h2>
+    </div>
+
+    <div id="uitlegComputerVision">
+      <div id="tekstUitleg">
+        <h4>Wat is Computer Vision?</h4>
+        <p>Computer Vision is een gebied van informatica dat werkt aan het mogelijk maken van computers om beelden te zien, te identificeren en te verwerken op dezelfde manier als het menselijk zicht, en vervolgens de juiste output te bieden. Het is als het doorgeven van menselijke intelligentie en instincten aan een computer.
+          Echter, in realiteit is het een moeilijke taak om computers in staat te stellen afbeeldingen van verschillende objecten te herkennen. Computervisie is nauw verbonden met kunstmatige intelligentie, omdat de computer moet interpreteren wat hij ziet en vervolgens de juiste analyse moet uitvoeren of dienovereenkomstig moet handelen.
+        <br>Computer Vision wordt onder andere veel gebruikt door snapchat, wat iedereen wel zal kennen, met bijvoorbeeld de "face swaps" of filters. Het gaat dan ook vooral om het herkennen van figuren of onderdelen, maar met het programma Processing kan je ook er veel figuren mee maken.</p>
+        <p>Voor de workshop Computer Vision zijn we dus aan de slag gegaan met het programma Processing. Processing is een open source programmeertaal en -omgeving voor mensen die interactieve afbeeldingen en animaties willen programmeren. Het wordt gebruikt door studenten, kunstenaars, ontwerpers, wetenschappers en hobbyisten om concepten te leren en te ontwikkelen.</p>
+    </div>
+      <img src="images/computerVision.png"></img>
+    </div>
+
+    <div id="uitlegOpdrachten">
+      <p>Tijdens de workshop ben ik aan de slag gegaan met het ontdekken van Processing. Hierbij waren opdrachten gegeven die we moesten uitvoeren. Hieronder zijn een aantal van mijn uitgevoerde opdrachten weergegeven, met de code en een afbeelding of filmpje erbij.</p>
+    </div>
+
+    <section id="content" class="grid-containerContent">
+
+        <div class="opdracht1 flex-item">
+          <hr>
+          <h3>Opdracht 1</h3>
+          <p>De eerste opdracht was om een code te schrijven dat 3 (of meer) ellipsen tekent. Deze moesten op verschillende plekken staan, verschillende kleuren hebben, verschillende hoogtes en breedtes hebben en wel, geen of een verschillende kleur rand hebben. Ik heb geprobeerd het voorbeeld na te maken. Hiervoor heb ik mijn eigen kleurcodes gebruikt en die in "fill" gezet in mijn code. Verder heb ik twee van de ellipsen een rand gegeven en een ellips zonder rand gelaten. Tot slot heb ik nog met de coördinaten van de ellipsen gespeelt, om ze op een andere plek te zetten. Uiteindelijk is het best goed gelukt!</p>
+          <img src="images/codeComputerVision1.png"></img>
+        </div>
+
+        <div class="opdracht2 flex-item">
+          <hr>
+          <h3>Opdracht 2</h3>
+          <p>De tweede opdracht was om een code te schrijven dat tenminste vier verschillende vormen zou tekenen. Dit mochten alleen geen cirkels zijn. Verder moesten de vormen verschillende kleuren hebben en op verschillende plekken staan. Ik heb hiervoor de vormen "line", "triangle", "rect" en "quad" gebruikt. Door bij "fill" steeds een andere kleurcode neer te zetten heb ik ze allemaal andere kleuren gegeven en hetzelfde heb ik voor de randen gedaan door dit bij "stroke" in te vullen. Tot slot heb ik weer met de coördinaten van de vormen gespeelt om ze allemaal op een andere plek te krijgen. Dit was best even uitvogelen met de x- en y-assen, maar uiteindelijk is het wel gelukt.</p>
+          <img src="images/codeComputerVision2.png"></img>
+        </div>
+
+        <div class="opdracht3 flex-item">
+          <hr>
+          <h3>Opdracht 3</h3>
+          <p>De derde opdracht was om een code te schrijven dat tenminste twee verschillende vormen tekende, met verschillende kleuren en deze moest je interactief maken. Hiervoor heb ik een cirkel en een lijn gebruikt en hierbij volgt het uiteinde van de lijn steeds het rondje, dus de lijn probeert steeds dichterbij te komen en hierdoor wordt die ook wat kleiner. Daarnaast wordt de cirkel steeds groter.</p>
+          <img src="images/codeComputerVision3.png"></img>
+          <video controls>
+            <source src="images/videoComputerVision3.mp4" type="video/mp4">
+          </video>
+        </div>
+
+        <div class="opdrachtCV1 flex-item">
+          <hr>
+          <h3>Opdracht CV1</h3>
+          <p>Bij de eerste opdracht van computer vision gingen we gebruik maken van een webcam/camera! Hiervoor gingen we de OpenCV libary gebruiken. Eerst moest ik dan ook wat libary's installeren voordat ik aan de slag kon gaan. De eerste opdracht ging over face detection (gezichtsherkenning). Er werd nu een vierkante rand getoond bij elk gezicht dat de camera zag en hiervan moest ik een rondje maken. Daarvoor heb ik "ellipse" in plaats van "rect" gebruikt in mijn code. Uiteindelijk kwam er dus een cirkel om elk gezicht dat op de camera te zien was.</p>
+          <img src="images/codeComputerVisionCV1.png" class="imgCV1-1"></img>
+          <img src="images/codeComputerVisionCV1.1.png" class="imgCV1-2"></img>
+        </div>
+
+        <div class="opdrachtCV2 flex-item">
+          <hr>
+          <h3>Opdracht CV2</h3>
+          <p>De tweede opdracht bij computer vision was om de code zo aan te passen dat er een rode clownsneus te zien was in plaats van je echte neus. Hiervoor heb ik onder andere gebruik gemaakt van CASCADE_NOSE in mijn code. Op de afbeelding is te zien dat er uiteindelijk dus een rode clownsneus op de plek van je echte neus getoond werd!</p>
+          <img src="images/codeComputerVisionCV2.png"></img>
+        </div>
+
+        <div class="opdrachtCV3 flex-item">
+          <hr>
+          <h3>Opdracht CV3</h3>
+          <p>Voor de derde opdracht van computer vision moest ik weer nieuwe voorbeelden downloaden. Hierbij gingen we aan de slag met het volgen van kleuren die de camera ziet! Ik heb dus het voorbeeld OpenCVMultipleColorTrackingLiveCamera uitgevoerd. Hierbij kon je de toetsen 1 t/m 4 op je toetsenbord linken aan een kleur, door ze in te drukken en tegelijkertijd op een kleur in je scherm van de camera te klikken. De kleuren kreeg je dan er naast te zien met een klein extra schermpje erbij. In dat extra schermpje werd alles met die bepaalde kleur wit en de rest zwart weergegeven. Het was heel gaaf om dit zo te zien! </p>
+          <img src="images/codeComputerVisionCV3.png" class="imgCV3-1"></img>
+          <img src="images/resultComputerVisionCV3.png" class="imgCV3-2"></img>
+        </div>
+
+        <div class="opdrachtAR flex-item">
+          <hr>
+          <h3>Opdracht AR</h3>
+          <p>Andere coole dingen die je met je camera en Processing kunt doen is tekens herkennen en deze vergroten met andere afbeeldingen. Dat is waar we de laatste opdracht Augmented Reality over ging. Ook hiervoor moest ik weer een nieuwe libary installeren. We hadden twee blaadjes met een teken die we uiteindelijk voor de camera moesten houden. Als je ze op een bepaalde manier positioneerde pakte de camera het teken en kwam er een blauw blokje naar voren! Dit was alleen wel een heel gedoe.. De camera had best wel moeite met het herkennen ervan en daardoor zat ik een tijdje heel langzaam de tekens heen en weer te bewegen voor de camera. Uiteindelijk is het bij mij wel gelukt, met bij het ene teken op een uitgeprint blaadje en het andere teken via mijn mobiel!</p>
+          <img src="images/resultComputerVisionAR.png" class="imgAR-1"></img>
+          <img src="images/result2ComputerVisionAR.png" class="imgAR-2"></img>
+        </div>
+
+    </section>
+
+    <section class="grid-container footer">
+
+      <div class="grid-item naam box1">
+        <p class="flex-item flex-itemNaam">	&copy; Femke van der Burg </p>
+        <p class="flex-item beroep">	Interaction &amp; UX Designer </p>
+        <p class="flex-item website"> <a href="www.femkevanderburg.nl">www.femkevanderburg.nl</a></p>
+      </div>
+
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+    <script type="text/javascript" src="scripts/main.js"></script>
+
+  </body>
+</html>

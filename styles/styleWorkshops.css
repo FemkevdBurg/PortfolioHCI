@@ -65,13 +65,9 @@ h1{
   background-size: cover;
 }
 
-.arduino:hover, .VRenvironments:hover{
+.arduino:hover, .VRenvironments:hover, .computerVision:hover{
   background-color: #6DFEED;
   background-image: none;
-}
-
-.computerVision{
-  background-color: grey;
 }
 
 i {
@@ -211,6 +207,53 @@ video{
 
 /* CSS voor VR Environments */
 
+/* CSS voor Computer Vision */
+
+.computerVision{
+  background-image: url("../images/backgroundComputerVisionMobile.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#uitlegComputerVision{
+  font-family: 'Source Sans Pro';
+  font-size: 1em;
+  width: 80%;
+  margin-left: 10%;
+}
+
+#uitlegComputerVision img{
+  margin-top: 0px;
+  width: 100%;
+}
+
+.opdracht2{
+  position: relative;
+  top: 50px;
+}
+
+.opdracht3{
+  position: relative;
+  top: 170px;
+}
+
+.opdrachtCV1{
+  position: relative;
+  top: 250px;
+}
+
+.opdrachtCV2{
+  position: relative;
+  top: 250px;
+}
+
+.opdrachtAR{
+  position: relative;
+  top: 250px;
+}
+
+/* CSS voor Computer Vision */
+
 
 
 /* -------------------- LAYOUT -------------------- */
@@ -292,6 +335,47 @@ video{
 
   /* CSS voor VR Environments */
 
+  /* CSS voor Computer Vision */
+
+  .computerVision{
+    background-image: url("../images/backgroundComputerVisionTablet.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+  .opdracht2{
+    position: relative;
+    top: -250px;
+  }
+
+  .opdracht3{
+    position: relative;
+    top: -470px;
+  }
+
+  .opdrachtCV1{
+    position: relative;
+    top: -400px;
+  }
+
+  .opdrachtCV2{
+    position: relative;
+    top: -700px;
+  }
+
+  .opdrachtCV3{
+    position: relative;
+    top: -1300px;
+  }
+
+  .opdrachtAR{
+    position: relative;
+    top: -1200px;
+  }
+
+  /* CSS voor Computer Vision */
+
 }
 
 /*Breakpoint naar laptop*/
@@ -365,6 +449,38 @@ video{
     width: 40%;
     height: auto;
   }
+
+  .opdracht4C{
+    position: relative;
+    top: 100px;
+  }
+
+  .opdracht6C{
+    position: relative;
+    top: 100px;
+  }
+
+  .opdracht7{
+    position: relative;
+    top: 100px;
+  }
+
+  .opdracht8{
+    position: relative;
+    top: 200px;
+  }
+
+  #videoOpdr8{
+    float: left;
+  }
+
+  #tekstOpdr8{
+    margin-left: 50%;
+    background-color: #6DFEED;
+    width: 20%;
+    padding: 3%;
+  }
+
 
 /* CSS voor VR Environments */
 
@@ -529,6 +645,95 @@ video{
   }
 
   /* CSS voor VR Environments */
+
+  /* CSS voor Computer Vision */
+
+  .computerVision{
+    background-image: url("../images/backgroundComputerVision.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #uitlegComputerVision{
+    font-family: 'Source Sans Pro';
+    font-size: 1em;
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  #uitlegComputerVision img{
+    margin-left: 5%;
+    margin-top: 160px;
+    width: 60%;
+  }
+
+  .opdracht2{
+    top: 100px;
+  }
+
+  .opdracht3{
+    top: 150px;
+    position: relative;
+  }
+
+  .opdrachtCV1{
+    top: 150px;
+    position: relative;
+  }
+
+  img.imgCV1-1{
+    float: left;
+    height: 250px;
+    margin-left: -10px;
+  }
+
+  img.imgCV1-2{
+    float: right;
+    height: 250px;
+    margin-left: 10px;
+  }
+
+  .opdrachtCV2{
+    top: -100px;
+  }
+
+  .opdrachtCV2 img{
+    position: absolute;
+    width: 200%;
+    height: 300px;
+  }
+
+  .opdrachtCV3{
+    top: -300px;
+    position: relative;
+  }
+
+  img.imgCV3-1{
+    float: left;
+    margin-left: -5%;
+  }
+
+  img.imgCV3-2{
+    float: right;
+    margin-left: 5%;
+  }
+
+  .opdrachtAR{
+    position: relative;
+    top: -250px;
+  }
+
+  .imgAR-1{
+    float: left;
+    margin-left: -5%;
+  }
+
+  .imgAR-2{
+    float: right;
+    margin-left: 5%;
+  }
+
+  /* CSS voor Computer Vision */
 
 }
 /*Breakpoint naar desktop*/
