@@ -591,6 +591,14 @@ h2{
   background-size: cover;
 }
 
+.assignmentsARVR img{
+  width: 30%;
+}
+
+.researchARVR{
+  margin-top: 900px;
+}
+
 /*CSS voor Augmented en Virtual Reality*/
 
 }
