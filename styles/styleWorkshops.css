@@ -608,6 +608,11 @@ video{
     margin-left: -5%;
   }
 
+  #note{
+    margin-top: 1600px;
+    width: 90%;
+  }
+
   .opdracht2VRenvironments{
     top: 1200px;
     position: relative;

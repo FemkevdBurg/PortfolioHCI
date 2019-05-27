@@ -282,6 +282,14 @@ margin-left: -17%;
 
 /*CSS voor Augmented en Virtual Reality*/
 
+a{
+color: #6DFEED
+}
+
+a:hover{
+  color: grey;
+}
+
 /*CSS voor Augmented en Virtual Reality*/
 
 /* -------------------- LAYOUT -------------------- */
@@ -598,6 +606,17 @@ h2{
 .researchARVR{
   margin-top: 900px;
 }
+
+.researchARVR img{
+    width: 30%;
+    height: 200px;
+}
+
+.assignment2{
+  margin-top: 300px;
+  margin-bottom: -150px;
+}
+
 
 /*CSS voor Augmented en Virtual Reality*/
 
