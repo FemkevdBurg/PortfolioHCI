@@ -53,6 +53,20 @@ h1{
   text-align: center;
 }
 
+#uitlegExcursie{
+  font-family: 'Source Sans Pro';
+  width: 80%;
+  margin-left: 10%;
+}
+
+a{
+  color: #6DFEED;
+}
+
+a:hover{
+  color: grey;
+}
+
 /* -------------------- LAYOUT -------------------- */
 
 
