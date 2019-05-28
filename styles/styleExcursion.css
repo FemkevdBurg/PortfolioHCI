@@ -59,12 +59,26 @@ h1{
   margin-left: 10%;
 }
 
+#uitleg img{
+  margin-left: 10%;
+  width: 80%;
+}
+
 a{
   color: #6DFEED;
 }
 
 a:hover{
   color: grey;
+}
+
+#picturesNemo{
+  margin-left: 10%;
+  width: 80%;
+}
+
+#picturesNemo img{
+  width: 22%;
 }
 
 /* -------------------- LAYOUT -------------------- */
@@ -90,6 +104,22 @@ a:hover{
       text-align: left;
       margin-left: 10%;
     }
+
+  #uitlegExcursie{
+    float: left;
+    width: 60%;
+  }
+
+  #uitleg img{
+    margin-left: 5%;
+    width: 20%;
+    height: 400px;
+  }
+
+  #picturesNemo{
+    margin-top: 50px;
+    width: 100%;
+  }
 
 }
 /*Breakpoint naar desktop*/
