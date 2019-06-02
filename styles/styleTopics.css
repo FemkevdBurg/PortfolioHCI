@@ -589,6 +589,16 @@ h2{
   margin-top: 350px;
 }
 
+.researchArtificialCreatures p{
+  width: 70%;
+  float: left;
+}
+
+.researchArtificialCreatures img{
+  width: 25%;
+  height: 70%;
+}
+
 .reflectArtificialCreatures{
   margin-top: 0px;
 }
