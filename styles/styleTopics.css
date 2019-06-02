@@ -585,8 +585,12 @@ h2{
   background-size: cover;
 }
 
-.reflectArtificialCreatures{
+.researchArtificialCreatures{
   margin-top: 350px;
+}
+
+.reflectArtificialCreatures{
+  margin-top: 0px;
 }
 
 /*CSS voor Artificial Creatures*/
