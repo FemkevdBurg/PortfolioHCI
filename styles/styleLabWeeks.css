@@ -60,15 +60,35 @@ i:hover{
   width: 80%;
   height: 300px;
   margin-left: 10%;
+  margin-top: 100px;
 }
 
-#content div p{
+.proces{
+  background-image: url(../images/LabWeeksProces.png);
+  width: 80%;
+  height: 80%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.proces:hover, .product:hover, .reflect:hover{
+  opacity: 0.8;
+}
+
+#content .flex-item p{
   text-align: center;
   font-family: 'Source Sans Pro';
   font-weight: bold;
-  font-size: 1em;
-  padding-top: 30%;
-  color: white;
+  margin-top: -100px;
+  padding: 10%;
+  position: relative;
+  font-size: 1.5em;
+  color: black;
+  background-color: #F6F5F5;
+}
+
+#content .flex-item p:hover{
+  background-color: #6DFEED;
 }
 
 #content a{
@@ -92,6 +112,16 @@ i:hover{
 
 #infoDagen  p{
   padding: 2%;
+}
+
+#infoDagen img{
+  width: 22%;
+  padding: 1%;
+}
+
+#infoDagen video{
+  width: 30%;
+  padding: 1%;
 }
 
 /*CSS van procesLabWeeks.html*/
