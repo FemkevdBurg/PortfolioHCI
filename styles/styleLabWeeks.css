@@ -84,10 +84,14 @@ i:hover{
 
 #infoDagen div{
   background-color: #F6F5F5;
-  height: 200px;
+  height: 100%;
   width: 80%;
   margin-left: 10%;
   margin-top: 10%;
+}
+
+#infoDagen  p{
+  padding: 2%;
 }
 
 /*CSS van procesLabWeeks.html*/
