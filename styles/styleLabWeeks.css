@@ -124,6 +124,15 @@ i:hover{
   padding: 1%;
 }
 
+#infoDagen .fotoLang{
+  height: 200px;
+  width: 15%;
+}
+
+#infoDagen .videoBreed{
+  width: 20%;
+}
+
 #infoDagen #illustraties{
     background-image: linear-gradient(to right, #9AFCFD, #6DFEED, #28AFB0, #6BBDBD);
     width: 100%;
@@ -148,11 +157,23 @@ h3{
   color: white;
 }
 
+#linkProduct{
+  margin-top: 5%;
+}
+
 #linkProduct a{
   font-family: 'Source Sans Pro';
   text-align: center;
   color: #6DFEED;
   font-size: 1.5em;
+}
+
+#linkProduct img{
+  width: 30%;
+}
+
+#fotoGroep{
+  margin-left: 25%;
 }
 
 /* -------------------- LAYOUT -------------------- */
