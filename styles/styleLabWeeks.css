@@ -156,6 +156,13 @@ i:hover{
     margin-top: 5%;
   }
 
+  #note{
+    font-style: italic;
+    font-family: 'Source Sans Pro';
+    margin-left: 10%;
+    color: grey;
+  }
+
 h4{
   text-align: center;
   padding-top: 2%;
@@ -169,10 +176,6 @@ h3{
   background-color: black;
   text-align: center;
   color: white;
-}
-
-#linkProduct{
-  margin-top: 5%;
 }
 
 #linkProduct a{
@@ -194,7 +197,7 @@ h3{
 
 /*CSS van productLabWeeks.html*/
 
-#titelProduct{
+#titel{
   margin-top: 100px;
   font-family: 'Source Sans Pro';
   font-weight: bold;
