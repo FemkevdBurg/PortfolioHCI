@@ -111,7 +111,43 @@ i:hover{
   text-decoration: none;
 }
 
+#secondMenu{
+  margin-top: 170px;
+  margin-bottom: -160px;
+  margin-left: 10%;
+}
+
+#secondMenu a{
+  color: #6DFEED;
+  text-align: center;
+  font-family: 'Source Sans Pro';
+  padding-left: 1%;
+  text-decoration: none;
+}
+
+#secondMenu #focus{
+  text-decoration: underline;
+}
+
+#secondMenu a:hover{
+  color: grey;
+}
+
+#secondMenu p{
+  color: black;
+  font-family: 'Source Sans Pro';
+  float: left;
+  margin-top: 0px;
+}
+
 /*CSS van procesLabWeeks.html*/
+
+#ondertitelProces{
+  font-family: 'Source Sans Pro';
+  text-align: center;
+  font-size: 1.5em;
+  margin-bottom: -100px;
+}
 
 #infoDagen{
   margin-top: 0px;
@@ -257,6 +293,17 @@ iframe{
 }
 
 /*CSS van productLabWeeks.html*/
+
+/*CSS van reflectLabWeeks.html*/
+
+#contentReflect p{
+  font-family: 'Source Sans Pro';
+  margin-left: 10%;
+  width: 80%;
+  font-size: 1.1em;
+}
+
+/*CSS van reflectLabWeeks.html*/
 
 /* -------------------- LAYOUT -------------------- */
 

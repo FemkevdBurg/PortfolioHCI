@@ -155,6 +155,9 @@ h2{
   font-size: 1.3em;
   font-family: 'Source Sans Pro';
   margin-top: 50px;
+  text-align: left;
+  margin-left: 5%;
+  width: 90%;
 }
 
 h3{
@@ -182,6 +185,11 @@ h3{
   margin-top: 5px;
 }
 
+#exampleSmartTattoo #linkVideoWearable{
+  float: left;
+  margin-left: 5%;
+}
+
 #exampleSmartTattoo{
   margin-bottom: -50px;
   margin-left: -20%;
@@ -196,7 +204,7 @@ h3{
   width: 250px;
   height: 170px;
   position: relative;
-  margin-left: -10%;
+  margin-left: 10%;
 }
 
 #exampleWearableTechnologyPrison{
